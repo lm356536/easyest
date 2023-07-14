@@ -1,5 +1,5 @@
 {
-  "name": "easyest",
+  "name": "antvplus",
   "version": "1.0.7",
   "main": "lib/index.js",
   "module": "es/index.mjs",
@@ -8,21 +8,21 @@
     "lib"
   ],
   "keywords": [
-    "easyest",
+    "antvplus",
     "vue3组件库"
   ],
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "小月",
+  "author": "lm",
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qddidi/easyest"
+    "url": "https://github.com/lm356536/antvplus"
   },
   "dependencies": {
-    "@easyest/utils": "^1.0.2"
+    "@antvplus/utils": "^1.0.2"
   }
 }

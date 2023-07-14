@@ -4,10 +4,10 @@ import { pkgPath, componentPath } from '../utils/paths';
 import less from 'gulp-less';
 import autoprefixer from 'gulp-autoprefixer';
 import run from '../utils/run';
-//删除easyest
+//删除antvplus
 
 export const removeDist = () => {
-  return delPath(`${pkgPath}/easyest`);
+  return delPath(`${pkgPath}/antvplus`);
 };
 
 //打包样式
@@ -15,8 +15,8 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.less`)
     .pipe(less())
     .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/easyest/lib/src`))
-    .pipe(dest(`${pkgPath}/easyest/es/src`));
+    .pipe(dest(`${pkgPath}/antvplus/lib/src`))
+    .pipe(dest(`${pkgPath}/antvplus/es/src`));
 };
 
 //打包组件

@@ -1,6 +1,6 @@
 export default {
-  title: 'Easyest',
-  base: process.env.NODE_ENV === 'production' ? '/easyest/' : '/',
+  title: 'AntvPlus',
+  base: process.env.NODE_ENV === 'production' ? '/antvplus/' : '/',
   themeConfig: {
     nav: [{ text: '文档', link: '/guild/introduce' }],
     sidebar: {
@@ -33,16 +33,11 @@ export default {
               text: '全局组件',
               link: '/develop/global'
             },
-
-            {
-              text: '打包发布',
-              link: '/develop/build'
-            }
           ]
         }
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/easyest' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/antvplus' }]
   }
 };

@@ -18,7 +18,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@easyest/components": "workspace:^1.0.0",
-    "easyest": "workspace:^1.0.4"
+    "@antvplus/components": "workspace:^1.0.0",
+    "antvplus": "workspace:^1.0.4"
   }
 }
